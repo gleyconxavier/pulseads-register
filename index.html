@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro | StartUP ADS</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+
+    <!-- Desta forma, a sua função é desenhar uma tela para um cadastro de cliente,
+    com o Nome, sobrenome, endereço completo ( endereço, num,
+    complemento, bairro, cep), telefone residencial e celular, tipo sanguíneo (A, B, AB e O,
+    que se subdividem em Rh positivo(+) e Rh negativo(-)), profissão e local de trabalho.
+
+    No design desta tela, vocês aplicarão conceitos relacionados à interação do usuário com
+    o computador (IHC). Para isto, lembrem-se das cores, formas, ergonomia, usabilidade,
+    acessibilidade e aplicabilidade.  -->
+    
+    <main>
+            <div class="jumbotron">
+                    <h1 class="display-4">PulseADS</h1>
+                    <p class="lead">Área de cadastro</p>
+                    <hr class="my-4">
+                    <!-- <p>Ele usa classes utilitárias para tipografia e espaçamento de conteúdo, dentro do maior container.</p> -->
+                    <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Leia mais</a> -->
+                  </div>
+              <!-- <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small> -->
+
+        <form class="container">
+            <div class="row">
+            <div class="form-group col-md-4">
+              <label for="exampleInputEmail1">Nome</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Insira seu nome">
+            </div>
+
+            <div class="form-group  col-md-5">
+                    <label for="exampleInputEmail1">Sobrenome</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Insira seu sobrenome">
+            </div>
+        </div>
+
+            <div class="row">
+            <div class="form-group col-md-4">
+                    <label for="exampleInputEmail1">Endereço</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Insira seu Endereço">
+            </div>
+
+            <div class="form-group col-md-2">
+                    <label for="exampleInputEmail1">Número</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Insira o número">
+            </div>
+            </div>
+
+            <div class="row">
+
+            <div class="form-group col-md-4">
+                    <label for="exampleInputEmail1">Complemento</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Insira o complemento">
+            </div>
+
+            <div class="form-group col-md-3">
+                    <label for="exampleInputEmail1">Bairro</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Insira o bairro">
+            </div>
+
+            <div class="form-group col-md-2">
+                    <label for="exampleInputEmail1">Cep</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Insira o cep">
+            </div>
+        </div>
+        </div>
+
+            <div class="row">
+                <div class="form-group col-sm-4">
+                        <label for="exampleInputEmail1">Telefone residencial</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Insira o número de telefone residencial">
+                </div>
+
+                <div class="form-group col-sm-5">
+                        <label for="exampleInputEmail1">Telefone celular</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Insira o telefone celular">
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                        <div class="form-group col-sm-3">
+                        <label for="exampleFormControlSelect12">Tipo sanguíneo</label>
+                        <select class="form-control" id="exampleFormControlSelect12">
+                        <option>Clique para selecionar</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>AB</option>
+                        <option>O</option>
+                        </select>
+                        
+                </div>
+                <div class="row m-4">
+                <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                        Rh negativo
+                        </label>
+                    </div>
+                    <div class="form-check ml-2">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                        <label class="form-check-label" for="exampleRadios2">
+                        Rh positivo
+                        </label>
+                </div>
+                </div><!-- fechamento row interna-->
+            </div> <!-- Fechamento da row -->
+
+            <div class="">
+                <div class="form-group form-check col-sm-4 mb-4">
+                <!-- <input type="checkbox" class="form-check-input" id="exampleCheck1"> -->
+                <!-- <label class="form-check-label" for="exampleCheck1">Clique em mim</label> -->
+                </div>
+                <button type="submit" class="btn btn-primary btn-success float-left  mr-5">Enviar</button>
+                <button type="submit" class="btn btn-primary btn-danger ml-4 mr-5">Cancelar</button>
+            </div>
+            </form>
+        </div>
+        <br>
+        <br>
+        <br>
+    </main>
+</body>
+</html>
